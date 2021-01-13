@@ -1,0 +1,24 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
+import 'react-native-gesture-handler';
+
+import React from 'react';
+import {StatusBar} from 'react-native';
+
+import Routes from './src/routes';
+
+const App = () => {
+  return (
+    <>
+      <StatusBar style="light" backgroundColor="#000" translucent={true} />
+      <Routes />
+    </>
+  );
+};
+
+export default App;
